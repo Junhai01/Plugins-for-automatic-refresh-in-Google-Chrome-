@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "页面自动加载",
+  "version": "1.0",
+  "description": "一个帮助自动刷新页面的Chrome浏览器插件",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/icon16.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    }
+  },
+  "permissions": ["activeTab", "tabs", "action", "storage"],
+  "web_accessible_resources": [{
+    "resources": ["images/*"],
+    "matches": ["<all_urls>"]
+  }],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  }
+}
