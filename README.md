@@ -14,3 +14,26 @@
 - `manifest.json`：Chrome扩展的配置文件，定义了扩展的基本信息、权限以及包含的文件等。
 - `images/`：存放项目中使用的图片资源。
 - `.git/`：Git版本控制的相关文件夹，用于管理项目的版本信息。
+
+
+
+
+
+<img width="408" alt="截屏2025-02-23 13 41 45" src="https://github.com/user-attachments/assets/07277142-1a7b-494c-9553-6c5fd24408ce" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img width="326" alt="截屏2025-02-23 13 42 20" src="https://github.com/user-attachments/assets/2a41aecf-93a4-48ad-ab43-2a0b212ef988" />
